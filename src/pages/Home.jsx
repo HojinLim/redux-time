@@ -11,7 +11,8 @@ const Home = () => {
     <div>
       Home
       <Form/>
-      <List />
+      <List isDone={false}/>
+      <List isDone={true}/>
     </div>
   );
 };
